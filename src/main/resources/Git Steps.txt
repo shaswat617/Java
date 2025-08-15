@@ -1,0 +1,15 @@
+# Git Setup initially
+
+1. First create a repo in GitHub
+2. git clone that repo into local
+3. git pull
+4. git status
+5. git add . [. not always but if we want to add all files into that repo ]
+6. git branch
+7. git commit -am "<commit_name>"
+8. git branch
+9. From breadcrumb menu at top of IntelliJ IDEA, then navigate to Git. Click on Push
+10. Then again click on Push
+
+# Git Push New changes
+
