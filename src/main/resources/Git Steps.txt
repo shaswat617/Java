@@ -11,5 +11,43 @@
 9. From breadcrumb menu at top of IntelliJ IDEA, then navigate to Git. Click on Push
 10. Then again click on Push
 
+git diff : Difference between local main branch and current status
+
+# Create new branch
+1. git checkout -b shaswat [new branch will be created on local]
+
+# Switch from one branch to another branch
+1. git checkout <branch_name> [based on where we want to switch]
+
+
 # Git Push New changes
+1. git pull origin main
+[ remote main branch to local current branch all changes will be pulled ]
+[ git pull means it tracks remote/origin main branch with local main branch ]
+
+git status
+
+2. git add <file name>
+3. git commit -am "commit_message" [a = add, m = commit message]
+4. git commit -m "commit_message" [ m = commit message]
+[ already added will be commited to local current branch ]
+5. git push origin main
+git push origin shaswat : local shaswat branch -> remote /origin/shaswat
+
+# Pull Request [PR]
+remote shaswat -> remote main
+[once PR is approved by lead who reviews the code in remote shaswat branch]
+
+White : Pushed to main branch in local
+Blue : Modified – changed since last push in local main.
+Green : New file – added to Git but not yet committed (staged).
+Red : Unversioned – not yet added to Git.
+
+When we type git status, and the output of the command shows a file 2 time i.e new and modified
+that means that file is already added but not commited and 2nd point is
+that file is a modified file not a new file.
+
+Untracked file : Red : Unversioned – not yet added to Git.
+git add <file_location from current directory> [ selected file will be shortlisted for
+further actions like commiting / pushing ]
 
