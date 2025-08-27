@@ -51,3 +51,8 @@ Untracked file : Red : Unversioned – not yet added to Git.
 git add <file_location from current directory> [ selected file will be shortlisted for
 further actions like commiting / pushing ]
 
+# git log
+it will log all the commits
+where ? local main / remote main
+use up and down arrows to navigate through all the commits recently
+press q to exit
